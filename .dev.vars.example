@@ -1,0 +1,20 @@
+# Example only. Copy to .dev.vars for local Worker testing and never commit .dev.vars.
+# Do not paste real values into this file or into VITE_* variables.
+
+# 32+ bytes of high-entropy random material. Required to enable V19 auth providers.
+AUTH_PEPPER=REPLACE_WITH_A_RANDOM_SECRET_OF_AT_LEAST_32_BYTES
+
+# Dedicated EmailJS authentication template; do not reuse Support or AutoReply templates.
+# Existing EmailJS service/public identifiers must be supplied for Preview if not already bound there.
+EMAILJS_SERVICE_ID=
+EMAILJS_PUBLIC_KEY=
+EMAILJS_AUTH_TEMPLATE_ID=
+# Origin allowlisted for this isolated Preview host in the EmailJS project.
+EMAILJS_ORIGIN=https://<preview-host>
+# Optional if required by the EmailJS project configuration.
+EMAILJS_PRIVATE_KEY=REPLACE_IF_REQUIRED
+
+# Google OAuth Web Client. Register GOOGLE_REDIRECT_URI exactly in Google Cloud Console.
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=REPLACE_WITH_GOOGLE_CLIENT_SECRET
+GOOGLE_REDIRECT_URI=https://<preview-host>/api/auth/google/callback

@@ -1,0 +1,1548 @@
+{
+  "format": "taamen-backup",
+  "version": 3,
+  "createdAt": "2026-11-02T14:07:57+02:00",
+  "stores": {
+    "matches": [
+      {
+        "id": "V10-DEMO-01",
+        "originId": "V10-DEMO-01",
+        "type": "competitive",
+        "title": "Al Quds FC × Beitunia United",
+        "team1": "Al Quds FC",
+        "team2": "Beitunia United",
+        "score1": 3,
+        "score2": 2,
+        "status": "ARCHIVED",
+        "dateLabel": "12/06/2026",
+        "dateISO": "2026-06-12",
+        "dateKey": 20260612,
+        "time": "19:00",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 50,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 25,
+          "breakMinutes": 5
+        },
+        "matchFormat": "5v5",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #1. Not a real match or real player record.",
+        "stadium": "Al Amari Stadium",
+        "city": "Al Bireh",
+        "createdAt": 1781107200000,
+        "updatedAt": 1781283000000,
+        "completedAt": 1781283000000,
+        "resultRecordedAt": 1781283060000,
+        "details": {
+          "team1": {
+            "possession": 52,
+            "shots": 17,
+            "onTarget": 3,
+            "saves": 5,
+            "assists": 3,
+            "passes": 104,
+            "fouls": 8,
+            "corners": 6
+          },
+          "team2": {
+            "possession": 48,
+            "shots": 8,
+            "onTarget": 4,
+            "saves": 2,
+            "assists": 2,
+            "passes": 147,
+            "fouls": 5,
+            "corners": 4
+          }
+        },
+        "playerContributions": {
+          "team1": [
+            {
+              "playerName": "Yazan K.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Laith M.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Sami R.",
+              "goals": 1,
+              "assists": 0
+            }
+          ],
+          "team2": [
+            {
+              "playerName": "Adam H.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Kareem N.",
+              "goals": 1,
+              "assists": 1
+            }
+          ]
+        },
+        "personalPerformance": {
+          "teamSide": "team1",
+          "goals": 1,
+          "assists": 1,
+          "minutesPlayed": 45,
+          "source": "user_reported"
+        }
+      },
+      {
+        "id": "V10-DEMO-02",
+        "originId": "V10-DEMO-02",
+        "type": "strong",
+        "title": "TAAMEN Blue × TAAMEN Gold",
+        "team1": "TAAMEN Blue",
+        "team2": "TAAMEN Gold",
+        "score1": 4,
+        "score2": 4,
+        "status": "ARCHIVED",
+        "dateLabel": "19/06/2026",
+        "dateISO": "2026-06-19",
+        "dateKey": 20260619,
+        "time": "20:30",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 50,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 25,
+          "breakMinutes": 5
+        },
+        "matchFormat": "5v5",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #2. Not a real match or real player record.",
+        "stadium": "Al Jinan Arena",
+        "city": "Jenin",
+        "createdAt": 1781717400000,
+        "updatedAt": 1781893200000,
+        "completedAt": 1781893200000,
+        "resultRecordedAt": 1781893260000,
+        "details": {
+          "team1": {
+            "possession": 49,
+            "shots": 6,
+            "onTarget": 5,
+            "saves": 1,
+            "assists": 4,
+            "passes": 78,
+            "fouls": 3,
+            "corners": 7
+          },
+          "team2": {
+            "possession": 51,
+            "shots": 7,
+            "onTarget": 7,
+            "saves": 1,
+            "assists": 4,
+            "passes": 120,
+            "fouls": 12,
+            "corners": 6
+          }
+        },
+        "playerContributions": {
+          "team1": [
+            {
+              "playerName": "Laith M.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Sami R.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Adam H.",
+              "goals": 1,
+              "assists": 0
+            },
+            {
+              "playerName": "Kareem N.",
+              "goals": 1,
+              "assists": 1
+            }
+          ],
+          "team2": [
+            {
+              "playerName": "Kareem N.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Tareq S.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Zaid B.",
+              "goals": 1,
+              "assists": 0
+            },
+            {
+              "playerName": "Rami F.",
+              "goals": 1,
+              "assists": 1
+            }
+          ]
+        },
+        "personalPerformance": {
+          "teamSide": "team2",
+          "goals": 1,
+          "assists": 1,
+          "minutesPlayed": 45,
+          "source": "user_reported"
+        }
+      },
+      {
+        "id": "V10-DEMO-03",
+        "originId": "V10-DEMO-03",
+        "type": "friendly",
+        "title": "Dura Stars × Hebron Athletic",
+        "team1": "Dura Stars",
+        "team2": "Hebron Athletic",
+        "score1": 1,
+        "score2": 2,
+        "status": "COMPLETED_WITH_RESULT",
+        "dateLabel": "26/06/2026",
+        "dateISO": "2026-06-26",
+        "dateKey": 20260626,
+        "time": "18:00",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 70,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 35,
+          "breakMinutes": 5
+        },
+        "matchFormat": "7v7",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #3. Not a real match or real player record.",
+        "stadium": "Dura Sports Ground",
+        "city": "Dura",
+        "createdAt": 1782313200000,
+        "updatedAt": 1782490200000,
+        "completedAt": 1782490200000,
+        "resultRecordedAt": 1782490260000,
+        "details": {
+          "team1": {
+            "possession": 59,
+            "shots": 17,
+            "onTarget": 1,
+            "saves": 5,
+            "assists": 1,
+            "passes": 112,
+            "fouls": 4,
+            "corners": 3
+          },
+          "team2": {
+            "possession": 41,
+            "shots": 4,
+            "onTarget": 4,
+            "saves": 3,
+            "assists": 2,
+            "passes": 127,
+            "fouls": 7,
+            "corners": 4
+          }
+        },
+        "playerContributions": {
+          "team1": [
+            {
+              "playerName": "Sami R.",
+              "goals": 1,
+              "assists": 1
+            }
+          ],
+          "team2": [
+            {
+              "playerName": "Tareq S.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Zaid B.",
+              "goals": 1,
+              "assists": 1
+            }
+          ]
+        },
+        "personalPerformance": {
+          "teamSide": "team1",
+          "goals": 1,
+          "assists": 0,
+          "minutesPlayed": 65,
+          "source": "user_reported"
+        }
+      },
+      {
+        "id": "V10-DEMO-04",
+        "originId": "V10-DEMO-04",
+        "type": "tournament",
+        "title": "Nablus Rovers × Balata City",
+        "team1": "Nablus Rovers",
+        "team2": "Balata City",
+        "score1": 5,
+        "score2": 1,
+        "status": "ARCHIVED",
+        "dateLabel": "03/07/2026",
+        "dateISO": "2026-07-03",
+        "dateKey": 20260703,
+        "time": "21:00",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 50,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 25,
+          "breakMinutes": 5
+        },
+        "matchFormat": "5v5",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #4. Not a real match or real player record.",
+        "stadium": "Municipal Pitch",
+        "city": "Nablus",
+        "createdAt": 1782928800000,
+        "updatedAt": 1783104600000,
+        "completedAt": 1783104600000,
+        "resultRecordedAt": 1783104660000,
+        "details": {
+          "team1": {
+            "possession": 48,
+            "shots": 10,
+            "onTarget": 8,
+            "saves": 2,
+            "assists": 5,
+            "passes": 156,
+            "fouls": 9,
+            "corners": 7
+          },
+          "team2": {
+            "possession": 52,
+            "shots": 13,
+            "onTarget": 2,
+            "saves": 2,
+            "assists": 1,
+            "passes": 157,
+            "fouls": 4,
+            "corners": 8
+          }
+        },
+        "playerContributions": {
+          "team1": [
+            {
+              "playerName": "Adam H.",
+              "goals": 2,
+              "assists": 1
+            },
+            {
+              "playerName": "Kareem N.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Tareq S.",
+              "goals": 1,
+              "assists": 0
+            },
+            {
+              "playerName": "Zaid B.",
+              "goals": 1,
+              "assists": 1
+            }
+          ],
+          "team2": [
+            {
+              "playerName": "Zaid B.",
+              "goals": 1,
+              "assists": 1
+            }
+          ]
+        },
+        "personalPerformance": {
+          "teamSide": "team2",
+          "goals": 1,
+          "assists": 0,
+          "minutesPlayed": 45,
+          "source": "user_reported"
+        }
+      },
+      {
+        "id": "V10-DEMO-05",
+        "originId": "V10-DEMO-05",
+        "type": "normal",
+        "title": "Ramallah Eleven × Birzeit Crew",
+        "team1": "Ramallah Eleven",
+        "team2": "Birzeit Crew",
+        "score1": 2,
+        "score2": 0,
+        "status": "COMPLETED_WITH_RESULT",
+        "dateLabel": "10/07/2026",
+        "dateISO": "2026-07-10",
+        "dateKey": 20260710,
+        "time": "19:30",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 70,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 35,
+          "breakMinutes": 5
+        },
+        "matchFormat": "7v7",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #5. Not a real match or real player record.",
+        "stadium": "Birzeit Campus Pitch",
+        "city": "Birzeit",
+        "createdAt": 1783528200000,
+        "updatedAt": 1783705200000,
+        "completedAt": 1783705200000,
+        "resultRecordedAt": 1783705260000,
+        "details": {
+          "team1": {
+            "possession": 41,
+            "shots": 15,
+            "onTarget": 2,
+            "saves": 1,
+            "assists": 2,
+            "passes": 77,
+            "fouls": 8,
+            "corners": 0
+          },
+          "team2": {
+            "possession": 59,
+            "shots": 12,
+            "onTarget": 2,
+            "saves": 5,
+            "assists": 0,
+            "passes": 90,
+            "fouls": 11,
+            "corners": 5
+          }
+        },
+        "playerContributions": {
+          "team1": [
+            {
+              "playerName": "Kareem N.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Tareq S.",
+              "goals": 1,
+              "assists": 1
+            }
+          ],
+          "team2": []
+        },
+        "personalPerformance": {
+          "teamSide": "team1",
+          "goals": 1,
+          "assists": 1,
+          "minutesPlayed": 65,
+          "source": "user_reported"
+        }
+      },
+      {
+        "id": "V10-DEMO-06",
+        "originId": "V10-DEMO-06",
+        "type": "competitive",
+        "title": "Tulkarm Lions × Jenin Falcons",
+        "team1": "Tulkarm Lions",
+        "team2": "Jenin Falcons",
+        "score1": 3,
+        "score2": 3,
+        "status": "COMPLETED_WITH_RESULT",
+        "dateLabel": "17/07/2026",
+        "dateISO": "2026-07-17",
+        "dateKey": 20260717,
+        "time": "17:30",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 50,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 25,
+          "breakMinutes": 5
+        },
+        "matchFormat": "5v5",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #6. Not a real match or real player record.",
+        "stadium": "Tulkarm Youth Field",
+        "city": "Tulkarm",
+        "createdAt": 1784125800000,
+        "updatedAt": 1784301600000,
+        "completedAt": 1784301600000,
+        "resultRecordedAt": 1784301660000,
+        "details": {
+          "team1": {
+            "possession": 60,
+            "shots": 10,
+            "onTarget": 5,
+            "saves": 7,
+            "assists": 3,
+            "passes": 123,
+            "fouls": 10,
+            "corners": 3
+          },
+          "team2": {
+            "possession": 40,
+            "shots": 8,
+            "onTarget": 5,
+            "saves": 2,
+            "assists": 3,
+            "passes": 68,
+            "fouls": 11,
+            "corners": 1
+          }
+        },
+        "playerContributions": {
+          "team1": [
+            {
+              "playerName": "Tareq S.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Zaid B.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Rami F.",
+              "goals": 1,
+              "assists": 0
+            }
+          ],
+          "team2": [
+            {
+              "playerName": "Fadi Q.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Omar A.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Yazan K.",
+              "goals": 1,
+              "assists": 0
+            }
+          ]
+        },
+        "personalPerformance": {
+          "teamSide": "team2",
+          "goals": 1,
+          "assists": 1,
+          "minutesPlayed": 45,
+          "source": "user_reported"
+        }
+      },
+      {
+        "id": "V10-DEMO-07",
+        "originId": "V10-DEMO-07",
+        "type": "friendly",
+        "title": "Qalqilya United × Azzun Athletic",
+        "team1": "Qalqilya United",
+        "team2": "Azzun Athletic",
+        "score1": 0,
+        "score2": 1,
+        "status": "ARCHIVED",
+        "dateLabel": "24/07/2026",
+        "dateISO": "2026-07-24",
+        "dateKey": 20260724,
+        "time": "20:00",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 50,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 25,
+          "breakMinutes": 5
+        },
+        "matchFormat": "5v5",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #7. Not a real match or real player record.",
+        "stadium": "Qalqilya Arena",
+        "city": "Qalqilya",
+        "createdAt": 1784739600000,
+        "updatedAt": 1784915400000,
+        "completedAt": 1784915400000,
+        "resultRecordedAt": 1784915460000
+      },
+      {
+        "id": "V10-DEMO-08",
+        "originId": "V10-DEMO-08",
+        "type": "strong",
+        "title": "Jericho Waves × Aqabat Jaber",
+        "team1": "Jericho Waves",
+        "team2": "Aqabat Jaber",
+        "score1": 6,
+        "score2": 2,
+        "status": "COMPLETED_WITH_RESULT",
+        "dateLabel": "01/08/2026",
+        "dateISO": "2026-08-01",
+        "dateKey": 20260801,
+        "time": "18:30",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 70,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 35,
+          "breakMinutes": 5
+        },
+        "matchFormat": "7v7",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #8. Not a real match or real player record.",
+        "stadium": "Jericho Sports Park",
+        "city": "Jericho",
+        "createdAt": 1785425400000,
+        "updatedAt": 1785602400000,
+        "completedAt": 1785602400000,
+        "resultRecordedAt": 1785602460000,
+        "details": {
+          "team1": {
+            "possession": 58,
+            "shots": 17,
+            "onTarget": 8,
+            "saves": 5,
+            "assists": 6,
+            "passes": 83,
+            "fouls": 11,
+            "corners": 1
+          },
+          "team2": {
+            "possession": 42,
+            "shots": 11,
+            "onTarget": 5,
+            "saves": 2,
+            "assists": 2,
+            "passes": 112,
+            "fouls": 2,
+            "corners": 0
+          }
+        },
+        "playerContributions": {
+          "team1": [
+            {
+              "playerName": "Rami F.",
+              "goals": 3,
+              "assists": 1
+            },
+            {
+              "playerName": "Fadi Q.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Omar A.",
+              "goals": 1,
+              "assists": 0
+            },
+            {
+              "playerName": "Yazan K.",
+              "goals": 1,
+              "assists": 1
+            }
+          ],
+          "team2": [
+            {
+              "playerName": "Yazan K.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Laith M.",
+              "goals": 1,
+              "assists": 1
+            }
+          ]
+        },
+        "personalPerformance": {
+          "teamSide": "team2",
+          "goals": 1,
+          "assists": 1,
+          "minutesPlayed": 65,
+          "source": "user_reported"
+        }
+      },
+      {
+        "id": "V10-DEMO-09",
+        "originId": "V10-DEMO-09",
+        "type": "competitive",
+        "title": "TAAMEN Alpha × TAAMEN Omega",
+        "team1": "TAAMEN Alpha",
+        "team2": "TAAMEN Omega",
+        "score1": 2,
+        "score2": 2,
+        "status": "COMPLETED_WITH_RESULT",
+        "dateLabel": "08/08/2026",
+        "dateISO": "2026-08-08",
+        "dateKey": 20260808,
+        "time": "19:00",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 50,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 25,
+          "breakMinutes": 5
+        },
+        "matchFormat": "5v5",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #9. Not a real match or real player record.",
+        "stadium": "Al Amari Stadium",
+        "city": "Al Bireh",
+        "createdAt": 1786032000000,
+        "updatedAt": 1786207800000,
+        "completedAt": 1786207800000,
+        "resultRecordedAt": 1786207860000,
+        "details": {
+          "team1": {
+            "possession": 38,
+            "shots": 11,
+            "onTarget": 3,
+            "saves": 7,
+            "assists": 2,
+            "passes": 93,
+            "fouls": 2,
+            "corners": 3
+          },
+          "team2": {
+            "possession": 62,
+            "shots": 10,
+            "onTarget": 2,
+            "saves": 5,
+            "assists": 2,
+            "passes": 111,
+            "fouls": 3,
+            "corners": 5
+          }
+        },
+        "playerContributions": {
+          "team1": [
+            {
+              "playerName": "Fadi Q.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Omar A.",
+              "goals": 1,
+              "assists": 1
+            }
+          ],
+          "team2": [
+            {
+              "playerName": "Laith M.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Sami R.",
+              "goals": 1,
+              "assists": 1
+            }
+          ]
+        },
+        "personalPerformance": {
+          "teamSide": "team1",
+          "goals": 1,
+          "assists": 1,
+          "minutesPlayed": 45,
+          "source": "user_reported"
+        }
+      },
+      {
+        "id": "V10-DEMO-10",
+        "originId": "V10-DEMO-10",
+        "type": "normal",
+        "title": "Beit Sahour FC × Bethlehem City",
+        "team1": "Beit Sahour FC",
+        "team2": "Bethlehem City",
+        "score1": 1,
+        "score2": 4,
+        "status": "COMPLETED_WITH_RESULT",
+        "dateLabel": "15/08/2026",
+        "dateISO": "2026-08-15",
+        "dateKey": 20260815,
+        "time": "21:00",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 70,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 35,
+          "breakMinutes": 5
+        },
+        "matchFormat": "7v7",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #10. Not a real match or real player record.",
+        "stadium": "Bethlehem Training Ground",
+        "city": "Bethlehem",
+        "createdAt": 1786644000000,
+        "updatedAt": 1786821000000,
+        "completedAt": 1786821000000,
+        "resultRecordedAt": 1786821060000,
+        "details": {
+          "team1": {
+            "possession": 40,
+            "shots": 17,
+            "onTarget": 2,
+            "saves": 1,
+            "assists": 1,
+            "passes": 74,
+            "fouls": 6,
+            "corners": 7
+          },
+          "team2": {
+            "possession": 60,
+            "shots": 10,
+            "onTarget": 5,
+            "saves": 7,
+            "assists": 4,
+            "passes": 113,
+            "fouls": 6,
+            "corners": 3
+          }
+        },
+        "playerContributions": {
+          "team1": [
+            {
+              "playerName": "Omar A.",
+              "goals": 1,
+              "assists": 1
+            }
+          ],
+          "team2": [
+            {
+              "playerName": "Sami R.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Adam H.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Kareem N.",
+              "goals": 1,
+              "assists": 0
+            },
+            {
+              "playerName": "Tareq S.",
+              "goals": 1,
+              "assists": 1
+            }
+          ]
+        },
+        "personalPerformance": {
+          "teamSide": "team2",
+          "goals": 1,
+          "assists": 1,
+          "minutesPlayed": 65,
+          "source": "user_reported"
+        }
+      },
+      {
+        "id": "V10-DEMO-11",
+        "originId": "V10-DEMO-11",
+        "type": "tournament",
+        "title": "Silwad Rangers × Jalazone Stars",
+        "team1": "Silwad Rangers",
+        "team2": "Jalazone Stars",
+        "score1": 3,
+        "score2": 1,
+        "status": "ARCHIVED",
+        "dateLabel": "22/08/2026",
+        "dateISO": "2026-08-22",
+        "dateKey": 20260822,
+        "time": "18:00",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 50,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 25,
+          "breakMinutes": 5
+        },
+        "matchFormat": "5v5",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #11. Not a real match or real player record.",
+        "stadium": "Silwad Municipal Pitch",
+        "city": "Silwad",
+        "createdAt": 1787238000000,
+        "updatedAt": 1787413800000,
+        "completedAt": 1787413800000,
+        "resultRecordedAt": 1787413860000,
+        "details": {
+          "team1": {
+            "possession": 52,
+            "shots": 6,
+            "onTarget": 4,
+            "saves": 6,
+            "assists": 3,
+            "passes": 134,
+            "fouls": 10,
+            "corners": 3
+          },
+          "team2": {
+            "possession": 48,
+            "shots": 12,
+            "onTarget": 3,
+            "saves": 1,
+            "assists": 1,
+            "passes": 108,
+            "fouls": 4,
+            "corners": 0
+          }
+        },
+        "playerContributions": {
+          "team1": [
+            {
+              "playerName": "Yazan K.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Laith M.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Sami R.",
+              "goals": 1,
+              "assists": 0
+            }
+          ],
+          "team2": [
+            {
+              "playerName": "Adam H.",
+              "goals": 1,
+              "assists": 1
+            }
+          ]
+        },
+        "personalPerformance": {
+          "teamSide": "team1",
+          "goals": 1,
+          "assists": 1,
+          "minutesPlayed": 45,
+          "source": "user_reported"
+        }
+      },
+      {
+        "id": "V10-DEMO-12",
+        "originId": "V10-DEMO-12",
+        "type": "friendly",
+        "title": "Abu Dis Athletic × Al Eizariya FC",
+        "team1": "Abu Dis Athletic",
+        "team2": "Al Eizariya FC",
+        "score1": 2,
+        "score2": 1,
+        "status": "COMPLETED_WITH_RESULT",
+        "dateLabel": "02/09/2026",
+        "dateISO": "2026-09-02",
+        "dateKey": 20260902,
+        "time": "20:00",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 70,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 35,
+          "breakMinutes": 5
+        },
+        "matchFormat": "7v7",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #12. Not a real match or real player record.",
+        "stadium": "Abu Dis Sports Field",
+        "city": "Abu Dis",
+        "createdAt": 1788195600000,
+        "updatedAt": 1788372600000,
+        "completedAt": 1788372600000,
+        "resultRecordedAt": 1788372660000,
+        "details": {
+          "team1": {
+            "possession": 55,
+            "shots": 17,
+            "onTarget": 5,
+            "saves": 7,
+            "assists": 2,
+            "passes": 86,
+            "fouls": 11,
+            "corners": 6
+          },
+          "team2": {
+            "possession": 45,
+            "shots": 9,
+            "onTarget": 1,
+            "saves": 6,
+            "assists": 1,
+            "passes": 161,
+            "fouls": 12,
+            "corners": 3
+          }
+        },
+        "playerContributions": {
+          "team1": [
+            {
+              "playerName": "Laith M.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Sami R.",
+              "goals": 1,
+              "assists": 1
+            }
+          ],
+          "team2": [
+            {
+              "playerName": "Kareem N.",
+              "goals": 1,
+              "assists": 1
+            }
+          ]
+        },
+        "personalPerformance": {
+          "teamSide": "team2",
+          "goals": 1,
+          "assists": 0,
+          "minutesPlayed": 65,
+          "source": "user_reported"
+        }
+      },
+      {
+        "id": "V10-DEMO-13",
+        "originId": "V10-DEMO-13",
+        "type": "competitive",
+        "title": "Salfit United × Biddya Crew",
+        "team1": "Salfit United",
+        "team2": "Biddya Crew",
+        "score1": 0,
+        "score2": 0,
+        "status": "COMPLETED_WITH_RESULT",
+        "dateLabel": "11/09/2026",
+        "dateISO": "2026-09-11",
+        "dateKey": 20260911,
+        "time": "19:30",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 50,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 25,
+          "breakMinutes": 5
+        },
+        "matchFormat": "5v5",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #13. Not a real match or real player record.",
+        "stadium": "Salfit Stadium",
+        "city": "Salfit",
+        "createdAt": 1788971400000,
+        "updatedAt": 1789147200000,
+        "completedAt": 1789147200000,
+        "resultRecordedAt": 1789147260000
+      },
+      {
+        "id": "V10-DEMO-14",
+        "originId": "V10-DEMO-14",
+        "type": "normal",
+        "title": "Jaba Rovers × Asira Athletic",
+        "team1": "Jaba Rovers",
+        "team2": "Asira Athletic",
+        "score1": 4,
+        "score2": 2,
+        "status": "COMPLETED_WITH_RESULT",
+        "dateLabel": "19/09/2026",
+        "dateISO": "2026-09-19",
+        "dateKey": 20260919,
+        "time": "20:30",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 50,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 25,
+          "breakMinutes": 5
+        },
+        "matchFormat": "5v5",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #14. Not a real match or real player record.",
+        "stadium": "Nablus West Pitch",
+        "city": "Nablus",
+        "createdAt": 1789666200000,
+        "updatedAt": 1789842000000,
+        "completedAt": 1789842000000,
+        "resultRecordedAt": 1789842060000,
+        "details": {
+          "team1": {
+            "possession": 58,
+            "shots": 9,
+            "onTarget": 6,
+            "saves": 7,
+            "assists": 4,
+            "passes": 175,
+            "fouls": 10,
+            "corners": 8
+          },
+          "team2": {
+            "possession": 42,
+            "shots": 10,
+            "onTarget": 2,
+            "saves": 7,
+            "assists": 2,
+            "passes": 91,
+            "fouls": 3,
+            "corners": 0
+          }
+        },
+        "playerContributions": {
+          "team1": [
+            {
+              "playerName": "Adam H.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Kareem N.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Tareq S.",
+              "goals": 1,
+              "assists": 0
+            },
+            {
+              "playerName": "Zaid B.",
+              "goals": 1,
+              "assists": 1
+            }
+          ],
+          "team2": [
+            {
+              "playerName": "Zaid B.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Rami F.",
+              "goals": 1,
+              "assists": 1
+            }
+          ]
+        },
+        "personalPerformance": {
+          "teamSide": "team2",
+          "goals": 1,
+          "assists": 1,
+          "minutesPlayed": 45,
+          "source": "user_reported"
+        }
+      },
+      {
+        "id": "V10-DEMO-15",
+        "originId": "V10-DEMO-15",
+        "type": "strong",
+        "title": "A-Ram City × Qalandia United",
+        "team1": "A-Ram City",
+        "team2": "Qalandia United",
+        "score1": 1,
+        "score2": 3,
+        "status": "ARCHIVED",
+        "dateLabel": "02/10/2026",
+        "dateISO": "2026-10-02",
+        "dateKey": 20261002,
+        "time": "18:00",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 70,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 35,
+          "breakMinutes": 5
+        },
+        "matchFormat": "7v7",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #15. Not a real match or real player record.",
+        "stadium": "A-Ram Community Field",
+        "city": "A-Ram",
+        "createdAt": 1790780400000,
+        "updatedAt": 1790957400000,
+        "completedAt": 1790957400000,
+        "resultRecordedAt": 1790957460000,
+        "details": {
+          "team1": {
+            "possession": 63,
+            "shots": 7,
+            "onTarget": 4,
+            "saves": 2,
+            "assists": 1,
+            "passes": 86,
+            "fouls": 3,
+            "corners": 5
+          },
+          "team2": {
+            "possession": 37,
+            "shots": 9,
+            "onTarget": 3,
+            "saves": 2,
+            "assists": 3,
+            "passes": 168,
+            "fouls": 10,
+            "corners": 7
+          }
+        },
+        "playerContributions": {
+          "team1": [
+            {
+              "playerName": "Kareem N.",
+              "goals": 1,
+              "assists": 1
+            }
+          ],
+          "team2": [
+            {
+              "playerName": "Rami F.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Fadi Q.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Omar A.",
+              "goals": 1,
+              "assists": 0
+            }
+          ]
+        },
+        "personalPerformance": {
+          "teamSide": "team1",
+          "goals": 1,
+          "assists": 0,
+          "minutesPlayed": 65,
+          "source": "user_reported"
+        }
+      },
+      {
+        "id": "V10-DEMO-16",
+        "originId": "V10-DEMO-16",
+        "type": "tournament",
+        "title": "TAAMEN Blue × West Bank Select",
+        "team1": "TAAMEN Blue",
+        "team2": "West Bank Select",
+        "score1": 5,
+        "score2": 4,
+        "status": "COMPLETED_WITH_RESULT",
+        "dateLabel": "10/10/2026",
+        "dateISO": "2026-10-10",
+        "dateKey": 20261010,
+        "time": "20:00",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 50,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 25,
+          "breakMinutes": 5
+        },
+        "matchFormat": "5v5",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #16. Not a real match or real player record.",
+        "stadium": "Al Amari Stadium",
+        "city": "Al Bireh",
+        "createdAt": 1791478800000,
+        "updatedAt": 1791654600000,
+        "completedAt": 1791654600000,
+        "resultRecordedAt": 1791654660000,
+        "details": {
+          "team1": {
+            "possession": 43,
+            "shots": 12,
+            "onTarget": 5,
+            "saves": 3,
+            "assists": 5,
+            "passes": 113,
+            "fouls": 2,
+            "corners": 2
+          },
+          "team2": {
+            "possession": 57,
+            "shots": 15,
+            "onTarget": 7,
+            "saves": 2,
+            "assists": 4,
+            "passes": 156,
+            "fouls": 12,
+            "corners": 0
+          }
+        },
+        "playerContributions": {
+          "team1": [
+            {
+              "playerName": "Tareq S.",
+              "goals": 2,
+              "assists": 1
+            },
+            {
+              "playerName": "Zaid B.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Rami F.",
+              "goals": 1,
+              "assists": 0
+            },
+            {
+              "playerName": "Fadi Q.",
+              "goals": 1,
+              "assists": 1
+            }
+          ],
+          "team2": [
+            {
+              "playerName": "Fadi Q.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Omar A.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Yazan K.",
+              "goals": 1,
+              "assists": 0
+            },
+            {
+              "playerName": "Laith M.",
+              "goals": 1,
+              "assists": 1
+            }
+          ]
+        },
+        "personalPerformance": {
+          "teamSide": "team2",
+          "goals": 1,
+          "assists": 1,
+          "minutesPlayed": 45,
+          "source": "user_reported"
+        }
+      },
+      {
+        "id": "V10-DEMO-17",
+        "originId": "V10-DEMO-17",
+        "type": "normal",
+        "title": "Jenin Falcons × Tubas Athletic",
+        "team1": "Jenin Falcons",
+        "team2": "Tubas Athletic",
+        "score1": 2,
+        "score2": 1,
+        "status": "COMPLETED_WITH_RESULT",
+        "dateLabel": "18/10/2026",
+        "dateISO": "2026-10-18",
+        "dateKey": 20261018,
+        "time": "19:00",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 70,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 35,
+          "breakMinutes": 5
+        },
+        "matchFormat": "7v7",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #17. Not a real match or real player record.",
+        "stadium": "Jenin Municipal Pitch",
+        "city": "Jenin",
+        "createdAt": 1792166400000,
+        "updatedAt": 1792343400000,
+        "completedAt": 1792343400000,
+        "resultRecordedAt": 1792343460000,
+        "details": {
+          "team1": {
+            "possession": 40,
+            "shots": 15,
+            "onTarget": 5,
+            "saves": 1,
+            "assists": 2,
+            "passes": 118,
+            "fouls": 6,
+            "corners": 7
+          },
+          "team2": {
+            "possession": 60,
+            "shots": 11,
+            "onTarget": 2,
+            "saves": 5,
+            "assists": 1,
+            "passes": 123,
+            "fouls": 6,
+            "corners": 4
+          }
+        },
+        "playerContributions": {
+          "team1": [
+            {
+              "playerName": "Zaid B.",
+              "goals": 1,
+              "assists": 1
+            },
+            {
+              "playerName": "Rami F.",
+              "goals": 1,
+              "assists": 1
+            }
+          ],
+          "team2": [
+            {
+              "playerName": "Omar A.",
+              "goals": 1,
+              "assists": 1
+            }
+          ]
+        },
+        "personalPerformance": {
+          "teamSide": "team1",
+          "goals": 1,
+          "assists": 1,
+          "minutesPlayed": 65,
+          "source": "user_reported"
+        }
+      },
+      {
+        "id": "V10-DEMO-18",
+        "originId": "V10-DEMO-18",
+        "type": "friendly",
+        "title": "Ramallah Eleven × Surda Rovers",
+        "team1": "Ramallah Eleven",
+        "team2": "Surda Rovers",
+        "score1": 0,
+        "score2": 0,
+        "status": "COMPLETED_PENDING_RESULT",
+        "dateLabel": "25/10/2026",
+        "dateISO": "2026-10-25",
+        "dateKey": 20261025,
+        "time": "21:00",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 50,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 25,
+          "breakMinutes": 5
+        },
+        "matchFormat": "5v5",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #18. Not a real match or real player record.",
+        "stadium": "Al Bireh Training Pitch",
+        "city": "Al Bireh",
+        "createdAt": 1792778400000,
+        "updatedAt": 1792957800000,
+        "completedAt": 1792957800000
+      },
+      {
+        "id": "V10-DEMO-19",
+        "originId": "V10-DEMO-19",
+        "type": "competitive",
+        "title": "TAAMEN United × Guests FC",
+        "team1": "TAAMEN United",
+        "team2": "Guests FC",
+        "score1": 0,
+        "score2": 0,
+        "status": "UPCOMING",
+        "dateLabel": "05/11/2026",
+        "dateISO": "2026-11-05",
+        "dateKey": 20261105,
+        "time": "19:30",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 50,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 25,
+          "breakMinutes": 5
+        },
+        "matchFormat": "5v5",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #19. Not a real match or real player record.",
+        "stadium": "Al Amari Stadium",
+        "city": "Al Bireh",
+        "createdAt": 1793727000000,
+        "updatedAt": 1793902800000
+      },
+      {
+        "id": "V10-DEMO-20",
+        "originId": "V10-DEMO-20",
+        "type": "friendly",
+        "title": "Jerusalem Lions × Bethlehem Stars",
+        "team1": "Jerusalem Lions",
+        "team2": "Bethlehem Stars",
+        "score1": 0,
+        "score2": 0,
+        "status": "UPCOMING",
+        "dateLabel": "08/11/2026",
+        "dateISO": "2026-11-08",
+        "dateKey": 20261108,
+        "time": "20:00",
+        "timezone": "Asia/Hebron",
+        "durationMinutes": 70,
+        "timing": {
+          "mode": "periods",
+          "periodCount": 2,
+          "periodMinutes": 35,
+          "breakMinutes": 5
+        },
+        "matchFormat": "7v7",
+        "visibility": "LOCAL",
+        "source": "local",
+        "story": "Synthetic V10 test fixture #20. Not a real match or real player record.",
+        "stadium": "Beit Hanina Sports Ground",
+        "city": "Jerusalem",
+        "createdAt": 1793988000000,
+        "updatedAt": 1794165000000
+      }
+    ]
+  }
+}

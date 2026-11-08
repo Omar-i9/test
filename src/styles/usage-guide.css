@@ -1,0 +1,170 @@
+.guide-modal {
+  width: min(860px, calc(100vw - 24px));
+  max-height: min(860px, calc(100dvh - 24px));
+}
+
+.guide-lead {
+  margin: 6px 0 0;
+  max-width: 46rem;
+  color: var(--muted, #bac8d9);
+  line-height: 1.6;
+}
+
+.guide-nav {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding: 0 18px 10px;
+}
+
+.guide-nav button {
+  flex: 0 0 auto;
+  min-height: 36px;
+  padding: 0 10px;
+  border-radius: 999px;
+  border: 1px solid var(--ta-line, rgba(186, 200, 217, .2));
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.guide-nav button.is-active {
+  background: rgba(155, 242, 114, .14);
+  border-color: rgba(155, 242, 114, .45);
+  color: var(--ta-lime, #9bf272);
+}
+
+.guide-purpose {
+  margin: 2px 0 0;
+  color: var(--muted, #bac8d9);
+}
+
+.guide-content h4 {
+  margin: 14px 0 6px;
+  font-size: 14px;
+}
+
+.guide-steps {
+  margin: 0;
+  padding-inline-start: 1.2rem;
+  display: grid;
+  gap: 6px;
+  line-height: 1.6;
+}
+
+.guide-example {
+  margin-top: 14px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(155, 242, 114, .22);
+  background: rgba(155, 242, 114, .06);
+}
+
+.guide-example p {
+  margin: 6px 0 0;
+  line-height: 1.65;
+}
+
+.guide-wants {
+  list-style: none;
+  margin: 14px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.guide-wants li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+  border-top: 1px solid var(--ta-line, rgba(186, 200, 217, .16));
+}
+
+.guide-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 12px 18px 16px;
+  border-top: 1px solid var(--ta-line, rgba(186, 200, 217, .16));
+}
+
+.guide-footer .dark-action,
+.guide-footer .primary-action {
+  margin: 0;
+}
+
+html[data-theme="light"] .guide-nav button.is-active {
+  color: #14532d;
+}
+
+html[data-theme="light"] .guide-example {
+  border-color: #1a2c30;
+  background: #fff;
+}
+
+@media (max-width: 700px) {
+  .guide-modal {
+    width: 100%;
+    max-height: 100dvh;
+    border-radius: 0;
+  }
+
+  .guide-footer {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .guide-nav button,
+  .guide-footer button {
+    transition: none;
+  }
+}
+
+.guide-content{color:var(--text);padding:18px 20px 22px;}
+.guide-content p,.guide-content li{color:var(--text);}
+.guide-section-header{display:flex;align-items:flex-start;gap:12px;margin:12px 0 7px;}
+.guide-section-header h3{margin:0;color:var(--text);font-size:clamp(18px,2vw,23px);line-height:1.35;}
+.guide-section-header p{color:var(--muted);line-height:1.7;}
+.guide-section-content,.guide-purpose{color:var(--text)!important;font-size:12px;line-height:1.9;}
+.guide-visual{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;align-items:stretch;margin:0 0 18px;padding:14px;border:1px solid rgba(155,242,114,.22);border-radius:14px;background:linear-gradient(110deg,rgba(155,242,114,.07),rgba(124,200,255,.045));}
+.guide-visual-step{position:relative;display:flex;align-items:center;gap:9px;min-width:0;min-height:58px;padding:9px 10px;border:1px solid var(--ta-line,rgba(186,200,217,.2));border-radius:10px;background:rgba(7,19,22,.48);}
+.guide-visual-step:not(:last-child)::after{content:"";position:absolute;inset-inline-end:-11px;top:50%;width:11px;height:1px;background:rgba(155,242,114,.6);}
+.guide-visual-step i{width:25px;height:25px;display:grid;place-items:center;flex:0 0 25px;border-radius:8px;background:rgba(155,242,114,.15);color:var(--lime);font:700 10px 'DM Mono';font-style:normal;}
+.guide-visual-step span{min-width:0;color:var(--text);font-size:10px;font-weight:700;line-height:1.55;}
+.guide-purpose{margin-top:4px;color:var(--muted)!important;}
+.guide-steps{color:var(--text);font-size:11px;line-height:1.9;}
+.guide-steps li{padding-inline-start:3px;}
+.guide-content h4{color:var(--lime);font-size:12px;}
+.guide-example{color:var(--text);}
+.guide-example strong{color:var(--text);}
+.guide-example p{color:var(--text);font-size:11px;}
+.guide-wants li{color:var(--text);font-size:11px;line-height:1.7;}
+.guide-nav button{font-size:10px;font-weight:700;}
+.guide-nav button:not(.is-active){color:var(--text);background:rgba(186,200,217,.04);}
+html[data-theme="light"] .guide-visual{background:#f1f7f2;border-color:#8ba995;}
+html[data-theme="light"] .guide-visual-step{background:#fff;border-color:#c4d1ca;}
+html[data-theme="light"] .guide-visual-step span,.guide-content{color:#142d2d;}
+html[data-theme="light"] .guide-content p,html[data-theme="light"] .guide-content li{color:#203b3b;}
+html[data-theme="light"] .guide-section-header h3{color:#173537;}
+html[data-theme="light"] .guide-section-content{color:#203b3b!important;}
+html[data-theme="light"] .guide-content h4{color:#14532d;}
+html[data-theme="light"] .guide-purpose{color:#455e5c!important;}
+@media(max-width:620px){.guide-content{padding:12px 14px 18px}.guide-visual{grid-template-columns:1fr;gap:7px;padding:10px}.guide-visual-step{min-height:43px}.guide-visual-step:not(:last-child)::after{inset-inline-end:auto;inset-inline-start:21px;top:auto;bottom:-8px;width:1px;height:8px;}.guide-nav{padding-inline:12px}.guide-nav button{min-height:38px;}}
+
+/* V10 guide readability: stronger hierarchy, larger labels and accessible contrast. */
+.guide-lead{font-size:13px;line-height:1.75;color:var(--text);}
+.guide-nav button{font-size:12px;min-height:40px;padding-inline:13px;}
+.guide-section-content{font-size:14px;line-height:1.9;}
+.guide-steps{font-size:13px;line-height:1.9;gap:8px;}
+.guide-visual{gap:12px;padding:16px;margin-bottom:20px;}
+.guide-visual-step{min-height:66px;padding:11px 12px;}
+.guide-visual-step i{width:29px;height:29px;flex-basis:29px;font-size:11px;}
+.guide-visual-step span{font-size:12px;line-height:1.6;}
+.guide-example p,.guide-next{font-size:13px;line-height:1.85;}
+.guide-wants li{font-size:12px;line-height:1.8;}
+html[data-theme="light"] .guide-lead{color:#203b3b;}
+html[data-theme="light"] .guide-visual-step i{background:#e4f3da;color:#17442a;}
+@media(max-width:620px){.guide-visual{gap:8px;padding:12px}.guide-visual-step{min-height:52px}.guide-section-content{font-size:13px}.guide-steps{font-size:12px}.guide-visual-step span{font-size:12px}}

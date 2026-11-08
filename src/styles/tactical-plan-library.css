@@ -1,0 +1,166 @@
+.tactical-library-panel { display: grid; gap: 0; }
+.tactical-library-panel > .tactical-library-header { display: flex; align-items: flex-start; gap: 10px; margin: 0; }
+.tactical-library-heading-copy { flex: 1; min-width: 0; }
+.tactical-library-heading-copy h2 { margin: 0; font-size: 14px; }
+.tactical-library-heading-copy > p { margin: 4px 0 0; color: var(--muted); font-size: 10px; line-height: 1.7; }
+.tactical-library-section-toggle { display: flex; align-items: center; justify-content: space-between; gap: 10px; width: 100%; padding: 0; border: 0; background: transparent; color: var(--text); text-align: start; font: inherit; font-weight: 800; cursor: pointer; }
+.tactical-library-section-toggle:focus-visible,
+.tactical-library-entry-toggle:focus-visible,
+.tactical-library-card-actions button:focus-visible,
+.tactical-library-rename button:focus-visible,
+.tactical-library-format-switch button:focus-visible { outline: 2px solid var(--lime); outline-offset: 3px; }
+.tactical-library-toggle-icon { flex: 0 0 auto; color: var(--muted); transition: transform .18s ease; }
+.tactical-library-section-toggle[aria-expanded="true"] .tactical-library-toggle-icon { transform: rotate(180deg); }
+.tactical-library-content { display: grid; gap: 12px; min-width: 0; margin-top: 14px; }
+.tactical-library-content[hidden],
+.tactical-library-entry-content[hidden] { display: none; }
+.tactical-library-format-switch { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px; padding: 4px; border: 1px solid var(--line); border-radius: 10px; background: rgba(6,16,29,.45); }
+.tactical-library-format-switch button { min-height: 36px; border: 0; border-radius: 7px; background: transparent; color: var(--muted); font: inherit; font-size: 10px; font-weight: 750; cursor: pointer; }
+.tactical-library-format-switch button.is-active { background: var(--lime); color: #193940; }
+.tactical-library-format-switch button:disabled { opacity: .5; cursor: not-allowed; }
+.tactical-library-capacity { display: flex; align-items: center; justify-content: space-between; gap: 8px; color: var(--muted); font-size: 10px; }
+.tactical-library-capacity strong { color: var(--text); font: 700 11px 'DM Mono', monospace; }
+.tactical-library-list { display: grid; gap: 7px; min-width: 0; }
+.tactical-library-entry { overflow: hidden; min-width: 0; border: 1px solid var(--line); border-radius: 10px; background: rgba(6,16,29,.35); }
+.tactical-library-entry.is-expanded { border-color: rgba(155,242,114,.32); background: rgba(6,16,29,.48); }
+.tactical-library-entry-toggle { display: flex; align-items: center; justify-content: space-between; gap: 10px; width: 100%; min-height: 44px; padding: 10px 12px; border: 0; background: transparent; color: var(--text); text-align: start; font: inherit; cursor: pointer; }
+.tactical-library-entry-toggle:disabled { opacity: .55; cursor: wait; }
+.tactical-library-entry-title { overflow: hidden; min-width: 0; color: var(--text); font-size: 11px; font-weight: 800; text-overflow: ellipsis; white-space: nowrap; }
+.tactical-library-entry-chevron { flex: 0 0 auto; color: var(--muted); transition: transform .18s ease, color .18s ease; }
+.tactical-library-entry-toggle[aria-expanded="true"] .tactical-library-entry-chevron { transform: rotate(180deg); color: var(--lime); }
+.tactical-library-entry-content { display: grid; gap: 9px; padding: 0 10px 10px; }
+.tactical-library-preview { display: block; width: 100%; aspect-ratio: 5 / 3; border: 1px solid rgba(228,241,232,.16); border-radius: 8px; background: #164D3A; }
+.tactical-library-entry-meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 10px; color: var(--muted); font-size: 9px; }
+.tactical-library-entry-meta > span:first-child { color: var(--lime); font: 700 10px 'DM Mono', monospace; }
+.tactical-library-entry-meta > span:last-child { display: inline-flex; align-items: center; gap: 5px; }
+.tactical-library-card-actions { display: grid; grid-template-columns: minmax(0, 1fr) auto auto auto; gap: 5px; }
+.tactical-library-card-actions button { display: inline-flex; align-items: center; justify-content: center; gap: 5px; min-width: 0; min-height: 36px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 8px; background: rgba(16,30,49,.72); color: var(--muted); font: inherit; font-size: 9px; font-weight: 750; cursor: pointer; }
+.tactical-library-card-actions button.is-primary { border-color: rgba(155,242,114,.28); background: rgba(155,242,114,.1); color: var(--lime); }
+.tactical-library-card-actions button:disabled { opacity: .45; cursor: not-allowed; }
+.tactical-library-rename { display: grid; grid-template-columns: minmax(0, 1fr) 36px 36px; gap: 5px; }
+.tactical-library-rename input,
+.tactical-library-save-form input { width: 100%; min-width: 0; min-height: 36px; padding: 8px 9px; border: 1px solid var(--line); border-radius: 8px; background: rgba(6,16,29,.65); color: var(--text); font: inherit; font-size: 10px; }
+.tactical-library-rename input:focus,
+.tactical-library-save-form input:focus { border-color: var(--lime); outline: 2px solid rgba(155,242,114,.12); outline-offset: 1px; }
+.tactical-library-rename button { display: grid; place-items: center; min-height: 36px; border: 1px solid var(--line); border-radius: 8px; background: rgba(16,30,49,.72); color: var(--text); cursor: pointer; }
+.tactical-library-rename button:disabled { opacity: .45; cursor: not-allowed; }
+.tactical-library-save-form { display: grid; gap: 7px; padding-top: 11px; border-top: 1px solid var(--line); }
+.tactical-library-save-form label { color: var(--muted); font-size: 10px; font-weight: 700; }
+.tactical-library-save-form .tactical-primary-action { grid-column: auto; width: 100%; min-height: 38px; }
+.tactical-library-save-form .tactical-primary-action:disabled { opacity: .45; cursor: not-allowed; }
+.tactical-library-save-form small { color: var(--muted); font-size: 9px; line-height: 1.6; }
+.tactical-library-locked { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 9px; align-items: start; padding: 11px; border: 1px solid rgba(155,242,114,.18); border-radius: 10px; background: rgba(155,242,114,.045); }
+.tactical-library-lock-icon { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 9px; background: rgba(155,242,114,.1); color: var(--lime); }
+.tactical-library-locked strong { color: var(--text); font-size: 10px; }
+.tactical-library-locked p { margin: 5px 0 0; color: var(--muted); font-size: 9px; line-height: 1.75; }
+.tactical-library-coming-soon { display: inline-flex; grid-column: 2; align-items: center; justify-self: start; gap: 5px; color: var(--lime); font-size: 9px; font-weight: 800; }
+.tactical-library-empty { padding: 13px 10px; border: 1px dashed rgba(155,242,114,.2); border-radius: 9px; color: var(--muted); text-align: center; font-size: 10px; line-height: 1.65; }
+.tactical-library-status { margin: 0; padding: 8px 9px; border: 1px solid var(--line); border-radius: 8px; color: var(--muted); font-size: 9px; line-height: 1.6; }
+.tactical-library-footnote { display: flex; align-items: flex-start; gap: 6px; color: var(--muted); font-size: 9px; line-height: 1.6; }
+.tactical-library-footnote svg { flex: 0 0 auto; margin-top: 1px; color: var(--lime); }
+.tactical-library-visually-hidden { position: absolute; overflow: hidden; width: 1px; height: 1px; padding: 0; margin: -1px; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+@media (max-width: 560px) {
+  .tactical-library-panel { padding: 12px; }
+  .tactical-library-entry-toggle { min-height: 46px; padding-inline: 10px; }
+  .tactical-library-entry-content { padding-inline: 8px; }
+  .tactical-library-card-actions { grid-template-columns: minmax(0, 1fr) repeat(3, 36px); }
+  .tactical-library-card-actions button { min-height: 38px; }
+  .tactical-library-card-actions button span { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tactical-library-toggle-icon,
+  .tactical-library-entry-chevron { transition: none; }
+}
+
+/* V15 Remaster: always show the five plan slots; cloud access controls whether they can be filled. */
+.tactical-library-capacity {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 8px;
+}
+.tactical-library-add-current {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 34px;
+  padding: 6px 10px;
+  border: 1px solid rgba(155,242,114,.34);
+  border-radius: 9px;
+  background: rgba(155,242,114,.1);
+  color: var(--lime);
+  font: inherit;
+  font-size: 10px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: background .16s ease, border-color .16s ease, opacity .16s ease;
+}
+.tactical-library-add-current:hover:not(:disabled) {
+  background: rgba(155,242,114,.16);
+  border-color: rgba(155,242,114,.55);
+}
+.tactical-library-add-current:focus-visible {
+  outline: 2px solid var(--lime);
+  outline-offset: 2px;
+}
+.tactical-library-add-current:disabled {
+  opacity: .42;
+  cursor: not-allowed;
+}
+.tactical-library-slot {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
+  min-height: 42px;
+  padding: 8px 11px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(6,16,29,.24);
+}
+.tactical-library-slot.is-empty {
+  border-style: dashed;
+  background: rgba(6,16,29,.18);
+}
+.tactical-library-slot-index {
+  flex: 0 0 25px;
+  color: var(--muted);
+  font: 700 10px 'DM Mono', monospace;
+  letter-spacing: .04em;
+}
+.tactical-library-slot-label {
+  overflow: hidden;
+  min-width: 0;
+  color: var(--text);
+  font-size: 10px;
+  font-weight: 750;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tactical-library-slot-state {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-inline-start: auto;
+  color: var(--muted);
+  font-size: 9px;
+  white-space: nowrap;
+}
+.tactical-library-entry-toggle .tactical-library-slot-index { text-align: start; }
+.tactical-library-entry-toggle .tactical-library-entry-title { flex: 1; }
+@media (max-width: 560px) {
+  .tactical-library-capacity { grid-template-columns: minmax(0, 1fr) auto; }
+  .tactical-library-capacity > span { grid-column: 1; }
+  .tactical-library-capacity > strong { grid-column: 2; grid-row: 1; }
+  .tactical-library-add-current { grid-column: 1 / -1; width: 100%; min-height: 40px; }
+  .tactical-library-slot { min-height: 44px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tactical-library-add-current { transition: none; }
+}
+
+.tactical-library-slot-save { display: inline-flex; align-items: center; justify-content: center; gap: 4px; min-height: 30px; margin-inline-start: auto; padding: 5px 9px; border: 1px solid rgba(155,242,114,.32); border-radius: 8px; background: rgba(155,242,114,.08); color: var(--lime); font: inherit; font-size: 9px; font-weight: 800; cursor: pointer; }
+.tactical-library-slot-save:disabled { opacity: .45; cursor: not-allowed; }
+.tactical-library-slot-save:focus-visible { outline: 2px solid var(--lime); outline-offset: 2px; }
+@media (max-width: 560px) { .tactical-library-slot-save span { display: none; } .tactical-library-slot-save { width: 30px; padding: 0; } }

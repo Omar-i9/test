@@ -1,0 +1,136 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "taamenn",
+	"compatibility_date": "2026-09-16",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"main": "./worker/index.js",
+	"ai": {
+		"binding": "AI",
+		"remote": true
+	},
+	// V17/V18 Preview database only. Its account-specific ID was confirmed by the operator.
+	// V19 migration 0003 adds account identities and sessions to this same Preview database.
+	// Production deliberately has no D1 binding. Never copy the Preview database ID into env.production.
+	// See docs/cloud/V18_SYNC_ENGINE_AR.md and docs/authentication/V19_AR.md.
+	"durable_objects": {
+		"bindings": [
+			{
+				"name": "AI_QUOTA",
+				"class_name": "AiDailyQuota"
+			}
+		]
+	},
+	"migrations": [
+		{
+			"tag": "v11-ai-quota-v1",
+			"new_sqlite_classes": [
+				"AiDailyQuota"
+			]
+		}
+	],
+	"assets": {
+		// Vite + @cloudflare/vite-plugin client outDir (see dist/client after npm run build).
+		// Required by wrangler CLI (`wrangler dev --remote`); the Vite plugin rewrites this
+		// to `../client` relative to dist/taamenn/ for vite preview / plugin deploy.
+		"directory": "dist/client",
+		"not_found_handling": "single-page-application",
+		"run_worker_first": [
+			"/api/*"
+		]
+	},
+	// Confirmed existing Cloudflare KV namespace. Do not create another one.
+	// V10 Worker KV use: `push` (subscription + reminder jobs only). Any old
+	// `data` / `sessions` keys are intentionally left untouched. VAPID_PUBLIC_KEY, VAPID_PRIVATE_KEY,
+	// and VAPID_SUBJECT are Worker secrets. Never put the private key here.
+	"triggers": {
+		"crons": [
+			"*/5 * * * *"
+		]
+	},
+	"kv_namespaces": [
+		{
+			"binding": "TAAMEN_KV",
+			"id": "7698f62403814e81b6f2ca13a8eb9cbc"
+		},
+		{
+			"binding": "TAAMEN_KV_PREVIEW",
+			"id": "3040b714158240628cbac731eb31ec9a",
+			"remote": true
+		}
+	],
+	// V17/V18 Preview D1 only. The Cloudflare Vite plugin runs the Worker locally,
+	// while this binding proxies D1 queries to the dedicated remote Preview DB.
+	// `env.production` intentionally has no D1 binding; do not add the Preview ID there.
+	"d1_databases": [
+		{
+			"binding": "TAAMEN_DB",
+			"database_name": "taamen-plans-preview",
+			"database_id": "6ba51e17-9844-4161-acf2-faa8122bf7c5",
+			"migrations_dir": "migrations",
+			"remote": true
+		}
+	],
+	// V19 auth provider variables/secrets are deliberately NOT populated in this archive.
+	// Configure them on Preview only after Google OAuth + a dedicated EmailJS auth template exist.
+	// Required: AUTH_PEPPER (secret), EMAILJS_AUTH_TEMPLATE_ID, GOOGLE_CLIENT_ID,
+	// GOOGLE_CLIENT_SECRET (secret), GOOGLE_REDIRECT_URI. Optional: EMAILJS_PRIVATE_KEY (secret).
+	// Never add these values to VITE_* or expose secrets in wrangler.jsonc.
+	"vars": {
+		"EMAILJS_SERVICE_ID": "service_13mkb9h",
+		"EMAILJS_CONTACT_TEMPLATE_ID": "template_jsugxta",
+		"EMAILJS_AUTOREPLY_TEMPLATE_ID": "template_4pj4xlm",
+		"EMAILJS_PUBLIC_KEY": "7xyuge5ZLIgBevcbL",
+		"EMAILJS_ORIGIN": "https://taamenn.com",
+		// Top-level is local Worker preview / default `vite build`. NODE_ENV is unset
+		// here so backend/src/config.mjs defaults to "development".
+		"REQUIRE_HTTPS": "false",
+		"TRUST_PROXY": "true",
+		"CORS_ORIGIN": ""
+	},
+	// Cloudflare Vite plugin: select this environment at *build* time with
+	// CLOUDFLARE_ENV=production (not wrangler --env after a default build).
+	// vars and kv_namespaces are non-inheritable and must be repeated.
+	// name stays "taamenn" so production is not a second Worker (taamenn-production).
+	// Do not add routes here; do not attach taamenn.com in this change.
+	"env": {
+		"production": {
+			"name": "taamenn",
+			"ai": {
+				"binding": "AI",
+				"remote": true
+			},
+			"durable_objects": {
+				"bindings": [
+					{
+						"name": "AI_QUOTA",
+						"class_name": "AiDailyQuota"
+					}
+				]
+			},
+			"kv_namespaces": [
+				{
+					"binding": "TAAMEN_KV",
+					"id": "7698f62403814e81b6f2ca13a8eb9cbc"
+				}
+			],
+			"triggers": {
+				"crons": [
+					"*/5 * * * *"
+				]
+			},
+			"vars": {
+				"EMAILJS_SERVICE_ID": "service_13mkb9h",
+				"EMAILJS_CONTACT_TEMPLATE_ID": "template_jsugxta",
+				"EMAILJS_AUTOREPLY_TEMPLATE_ID": "template_4pj4xlm",
+				"EMAILJS_PUBLIC_KEY": "7xyuge5ZLIgBevcbL",
+				"EMAILJS_ORIGIN": "https://taamenn.com",
+				"REQUIRE_HTTPS": "true",
+				"NODE_ENV": "production",
+				"TRUST_PROXY": "true",
+				"CORS_ORIGIN": "",
+			}
+		}
+	}
+}

@@ -1,0 +1,61 @@
+{
+  "format": "taamen-tactical-plan",
+  "schemaVersion": 1,
+  "id": "plan-v3-5v5",
+  "metadata": {
+    "title": "Build up — right side",
+    "notes": "Move the ball through the right channel while the deeper player protects the center.",
+    "gameFormat": "5v5",
+    "formation": "1-2-1",
+    "createdAt": "2026-11-04T10:00:00.000Z",
+    "updatedAt": "2026-11-04T10:10:00.000Z"
+  },
+  "pitch": {
+    "coordinateSystem": "normalized-0-1",
+    "width": 1,
+    "height": 1,
+    "orientation": "landscape",
+    "attackDirection": "unspecified"
+  },
+  "players": [
+    { "id": "home-1", "team": "home", "number": 1, "name": "Goalkeeper", "position": { "x": 0.0722, "y": 0.5 } },
+    { "id": "home-2", "team": "home", "number": 2, "name": "Defender", "position": { "x": 0.2556, "y": 0.5 } },
+    { "id": "home-3", "team": "home", "number": 3, "name": "Midfielder A", "position": { "x": 0.4333, "y": 0.3241 } },
+    { "id": "home-4", "team": "home", "number": 4, "name": "Midfielder B", "position": { "x": 0.4333, "y": 0.6759 } },
+    { "id": "home-5", "team": "home", "number": 5, "name": "Forward", "position": { "x": 0.6, "y": 0.5 } },
+    { "id": "away-1", "team": "away", "number": 1, "name": "Opponent 1", "position": { "x": 0.9278, "y": 0.5 } },
+    { "id": "away-2", "team": "away", "number": 2, "name": "Opponent 2", "position": { "x": 0.7444, "y": 0.5 } },
+    { "id": "away-3", "team": "away", "number": 3, "name": "Opponent 3", "position": { "x": 0.5667, "y": 0.3241 } },
+    { "id": "away-4", "team": "away", "number": 4, "name": "Opponent 4", "position": { "x": 0.5667, "y": 0.6759 } },
+    { "id": "away-5", "team": "away", "number": 5, "name": "Opponent 5", "position": { "x": 0.4, "y": 0.5 } }
+  ],
+  "drawings": [
+    {
+      "id": "pass-01",
+      "kind": "pass",
+      "styleToken": "pass-solid-white",
+      "start": { "x": 0.4333, "y": 0.3241 },
+      "end": { "x": 0.6, "y": 0.5 }
+    },
+    {
+      "id": "curve-01",
+      "kind": "curve",
+      "styleToken": "curve-solid-violet",
+      "start": { "x": 0.2556, "y": 0.5 },
+      "end": { "x": 0.6, "y": 0.5 },
+      "points": [
+        { "x": 0.2556, "y": 0.5 },
+        { "x": 0.43, "y": 0.34 },
+        { "x": 0.6, "y": 0.5 }
+      ]
+    },
+    {
+      "id": "zone-01",
+      "kind": "zone",
+      "styleToken": "zone-fill-amber",
+      "start": { "x": 0.34, "y": 0.2 },
+      "end": { "x": 0.58, "y": 0.78 }
+    }
+  ],
+  "layerOrder": ["drawings", "players"]
+}

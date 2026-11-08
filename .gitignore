@@ -1,0 +1,50 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Legacy operator runtime data from earlier builds. Never commit or distribute these files.
+backend/data.json
+backend/data.json.tmp
+backend/data.json.corrupt-*
+
+# Legacy private match snapshots: keep outside the repository.
+backend/legacy-private-matches.json
+
+# Legacy server session store from earlier builds.
+backend/sessions.json
+backend/sessions.json.tmp
+backend/sessions.json.corrupt-*
+
+# Legacy KV exports. Never commit operator or private data.
+backend/kv-data.json
+backend/kv-data.json.tmp
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Cloudflare Wrangler / Vite plugin local state
+.wrangler
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
